@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>CHRONOFALL: Aegis of the Clockwork Citadel</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #0d0a08;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Cinzel", "Georgia", serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #e6c894;
+    }
+    #game-container {
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      max-width: 100vw;
+      max-height: 100vh;
+      aspect-ratio: 16 / 9;
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.9), 0 0 20px rgba(212, 143, 56, 0.2);
+      border: 2px solid #5a3e1b;
+      background: #090705;
+      overflow: hidden;
+    }
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+    }
+    #audio-prompt {
+      position: absolute;
+      bottom: 12px;
+      right: 16px;
+      font-size: 11px;
+      color: #8c7355;
+      letter-spacing: 1px;
+      pointer-events: none;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="viewport" width="1280" height="720"></canvas>
+    <div id="audio-prompt">AUDIO: PROCEDURAL SYNTH ENGINE ACTIVE</div>
+  </div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

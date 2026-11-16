@@ -1,0 +1,6 @@
+[
+  { "name": "1-cover.jpg", "query": "?shot=cover&seed=42" },
+  { "name": "2-combat.jpg", "query": "?shot=combat&seed=42" },
+  { "name": "3-workshop.jpg", "query": "?shot=workshop&seed=42" },
+  { "name": "4-victory.jpg", "query": "?shot=victory&seed=42" }
+]
