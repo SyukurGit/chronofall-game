@@ -1,10 +1,10 @@
 # CHRONOFALL: Aegis of the Clockwork Citadel
 
-[![make.fun best-game-01](https://make.fun/api/bounties/best-game-01/badge.svg)](https://make.fun/bounty/best-game-01)
-[![make.fun entry](https://make.fun/api/submissions/badge.svg?bounty=best-game-01)](https://make.fun/bounty/best-game-01)
-[![make.fun verified](https://make.fun/api/bounties/best-game-01/verified.svg)](https://make.fun/bounty/best-game-01)
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01) [![rank](https://make.fun/badge/best-game-01/SyukurGit/chronofall-game/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01) [![reward](https://make.fun/badge/best-game-01/SyukurGit/chronofall-game/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
 
 > An authentic offline temporal kinetic defense & clockwork survival game built for the [make.fun best-game-01](https://make.fun/bounty/best-game-01) competition.
+
+![Cover Screenshot](./screenshots/1-cover.jpg)
 
 ---
 
